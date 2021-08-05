@@ -20,23 +20,76 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
   background-color: pink;
   padding: 10px;
   grid-column-gap: 50px;
   grid-row-gap: 50px;
+  border-color: purple;
+  grid-template-columns: auto auto auto;
 }
 
-.grid-item {
+.box1 {
   background-color:white;
-  border: 1px solid;
-  border-color:pink;
+  border: solid;
+  border-color: purple;
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  border-style: solid;
+}
+
+.box2, .box3, .box4 {
+  background-color: pink
+  border: solid;
+  border-color: purple;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
+}
+
+.box5, .box6, .box7 {
+  background-color: pink
+  border: solid;
+  border-color: purple;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
+}
+
+.box8, .box9, .box10 {
+  background-color: pink
+  border: solid;
+  border-color: purple;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
+} 
+
+.box11, .box12, .box13 {
+  background-color: pink
+  border: solid;
+  border-color: purple;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
+}
+
+.box14, .box15 {
+  background-color: pink;
+  border: solid;
+  border-color: purple;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
 }
 
 </style>
 </head>
 <body>
+
 
