@@ -3,19 +3,23 @@
 
 <style>
 body {
-    margin: 0;
-      background-color: white;
-      color: pink
-      border-style: solid;
-      border-color: pink
-  }
+    margin: auto;
+    background-color: white;
+    color: pink;
+    border-style: solid;
+    border-color: pink
+}
 
   /* Style the header */
 .header {
     color: purple;
     padding: 20px;
     text-align: center;
-
+    width: 35%;
+    max-width: 500px;
+    padding:10px;
+    margin: auto;
+    margin-top: 100px;
   }
 
 .grid-container {
@@ -27,10 +31,11 @@ body {
   border-color: purple;
   grid-template-columns: auto auto auto;
   box-shadow: 10px 10px;
+  outline-style: solid
 }
 
 .box1 {
-  background-color:white;
+  background-color:pink;
   border: solid;
   border-color: purple;
   padding: 40px;
@@ -41,43 +46,43 @@ body {
 }
 
 .box2, .box3, .box4 {
-  background-color: pink
+  background-color: pink;
   border: solid;
   border-color: purple;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  border-style: solid;
+  border-style: solid
 }
 
 .box5, .box6, .box7 {
-  background-color: pink
+  background-color: pink;
   border: solid;
   border-color: purple;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  border-style: solid;
+  border-style: solid
 }
 
 .box8, .box9, .box10 {
-  background-color: pink
+  background-color: pink;
   border: solid;
   border-color: purple;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  border-style: solid;
+  border-style: solid
 } 
 
 .box11, .box12, .box13 {
-  background-color: pink
+  background-color: pink;
   border: solid;
   border-color: purple;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  border-style: solid;
+  border-style: solid
 }
 
 .box14 {
@@ -87,8 +92,7 @@ body {
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  border-style: solid;
-
+  border-style: solid
 }
 
 .box15 {
@@ -99,8 +103,7 @@ body {
   font-size: 30px;
   text-align: center;
   border-style: solid;
-  grid-area: 6 / 2 / span 1 / span 2;
-  
+  grid-area: 6 / 2 / span 1 / span 2
 }
 
 </style>
