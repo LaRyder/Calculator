@@ -2,24 +2,26 @@
 <head>
 
 <style>
-body {
-    margin: auto;
-    background-color: white;
-    color: pink;
-    border-style: solid;
-    border-color: pink
+
+body{
+  margin: auto;
+  background color: white;
+  color: pink; 
+  border-style:solid;
+  border-color: pink
+
 }
 
   /* Style the header */
 .header {
-    color: purple;
-    padding: 20px;
-    text-align: center;
-    width: 35%;
-    max-width: 500px;
-    padding:10px;
-    margin: auto;
-    margin-top: 100px;
+  color: purple;
+  padding: 20px;
+  text-align: center;
+  width: 35%;
+  max-width: 500px;
+  padding:10px;
+  margin: auto;
+  margin-top: 100px;
   }
 
 .grid-container {
@@ -31,7 +33,7 @@ body {
   border-color: purple;
   grid-template-columns: auto auto auto;
   box-shadow: 10px 10px;
-  outline-style: solid
+  outline-style: solid;
 }
 
 .box1 {
@@ -43,6 +45,7 @@ body {
   text-align: right;
   border-style: solid;
   grid-area: 1 / 1 / span 1 / span 3;
+
 }
 
 .box2, .box3, .box4 {
@@ -52,7 +55,8 @@ body {
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  border-style: solid
+  border-style: solid;
+  transition: 0.3s;
 }
 
 .box5, .box6, .box7 {
@@ -103,11 +107,14 @@ body {
   font-size: 30px;
   text-align: center;
   border-style: solid;
-  grid-area: 6 / 2 / span 1 / span 2
+  grid-area: 6 / 2 / span 1 / span 2;
+}
+
+a.box2:hover {
+  background-color:white;
+  opacity: 0.6;
 }
 
 </style>
 </head>
 <body>
-
-
