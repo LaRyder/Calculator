@@ -1,19 +1,23 @@
-<html> <head> <style> body{
+body {
   margin: auto;
   color: pink;
   border-style:solid;
   border-color: pink 
 }
-/* Style the header */
+.top {
+  display: flex;
+  grid-area: 1 / 1 / span 1 / span 3;
+  padding: 20px;
+  border: solid;
+}
 .header {
   color: purple;
   padding: 20px;
   text-align: center;
-  width: 35%;
   max-width: 500px;
-  padding:10px;
   margin: auto;
   margin-top: 100px;
+  font-family: cursive;
 }
 .grid-container {
   display: grid;
@@ -26,15 +30,26 @@
   box-shadow: 10px 10px;
   outline-style: solid;
 }
-.box1 {
-  background-color:pink;
-  border: solid;
-  border-color: purple;
-  padding: 40px;
-  font-size: 30px;
+input#name {
+  font-size: 12px;
+  font-family: cursive;
   text-align: right;
-  border-style: solid;
-  grid-area: 1 / 1 / span 1 / span 3;
+  color: purple;
+  border: purple
+}
+ .clear {
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    background:pink;
+    border-radius: 3px;
+    box-shadow: 0px 4px gray;
+    margin: 0 7px 11px 0;
+    color :purple;
+    line-height: 36px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
 }
 .calculatorButton {
   background-color: pink;
@@ -44,6 +59,7 @@
   text-align: center;
   color: purple;
   cursor: pointer;
+  font-family: cursive;
 }
 .calculatorButton:hover {
   background-color: mediumpurple;
@@ -52,5 +68,3 @@
 .equalsButton {
   grid-area: 6 / 2 / span 1 / span 2;
 }
-
-</style> </head> <body>
