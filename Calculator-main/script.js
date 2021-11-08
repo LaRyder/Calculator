@@ -7,7 +7,9 @@
     var subtract = document.getElementById("subtract");
     var equal = document.getElementById("equal");
     var total = document.getElementById("total");
-
+    
+    const display = document.querySelector('.input');
+    
     console.log(numbers);
     console.log(multiply);
     console.log(divide);
@@ -20,7 +22,7 @@
         constructor() {
             this.total
             this.temp
-            this.operator
+            this.operator = "none"
         }
 
         addToTemp(number) {
@@ -44,11 +46,11 @@
 
     //Listeners
     for(var i = 0; numbers.length; i++ ){
-        numbers[i].addEventListener('click', function(){
+        numbers[i].addEventListener("click", function(){
             calc.addToTemp(this.innerText);
         });
     }
-    equal.addEventListener('click', () => {
+    equal.addEventListener("click", () => {
         calc.equal();
     })
 })()
