@@ -1,8 +1,8 @@
 body {
   margin: auto;
   color: pink;
-  border-style: solid;
-  border-color: pink;
+  border-style:solid;
+  border-color: pink 
 }
 .top {
   display: flex;
@@ -35,21 +35,21 @@ input#name {
   font-family: cursive;
   text-align: right;
   color: purple;
-  border: purple;
+  border: purple
 }
-.clear {
-  cursor: pointer;
-  width: 80px;
-  height: 50px;
-  background: pink;
-  border-radius: 3px;
-  box-shadow: 0px 4px gray;
-  margin: 0 7px 11px 0;
-  color: purple;
-  line-height: 36px;
-  text-align: center;
-  font-family: cursive;
-  font-size: 30px;
+ .clear {
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    background:pink;
+    border-radius: 3px;
+    box-shadow: 0px 4px gray;
+    margin: 0 7px 11px 0;
+    color :purple;
+    line-height: 36px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
 }
 .calculatorButton {
   background-color: pink;
